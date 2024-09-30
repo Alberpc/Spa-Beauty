@@ -1,0 +1,51 @@
+.hero {
+    max-width: 50%;
+    margin-bottom: 60px;
+    &__content {
+        &-title {
+            color: $blue;
+            font-size: $title;
+            line-height: 80px;
+            margin-bottom: 32px;
+            font-weight: 600;
+        }
+        &-sub {
+            color: $grey;
+            font-size: $subtitle;
+            line-height: 40px;
+            margin-bottom: 56px;
+        }
+    }
+    &__nav {
+        display: flex;
+        justify-content: start;
+       ul {
+        display: flex;
+       align-items: center;
+       }
+       li {
+        display: flex;
+        align-items: center;
+       }
+     
+       a:first-child {
+        margin-right: 32px;
+       }
+       &-menu {
+        display: flex;
+        align-items: center;
+        a {
+            text-decoration: none;
+        }
+       
+       }
+       
+     
+      
+       
+
+      
+      
+    }
+   
+}
