@@ -1,0 +1,27 @@
+html * {
+  font-family: $poppins;
+  font-size: $base;
+}
+
+body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  @include reset-list();
+}
+
+.box1 {
+  padding-left: 160px;
+  padding-bottom: 218px;
+}
+
+.box3 {
+  position: relative;
+}
+
+.box2 {
+  position: relative;
+}

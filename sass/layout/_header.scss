@@ -1,0 +1,53 @@
+.header1 {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  color: $blue;
+  margin-bottom: 80px;
+  gap: 164px;
+
+  &__nav_principal {
+    ul {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 56px;
+
+      a {
+        text-decoration: none;
+        color: $blue;
+      }
+      a:hover {
+        color: $green;
+      }
+    }
+  }
+}
+
+.header2 {
+  display: flex;
+  padding-top: 20px;
+  justify-content: center;
+
+  align-items: center;
+
+  &__icon {
+    display: flex;
+    max-width: 96px;
+    gap: 32px;
+    margin-right: 66px;
+  }
+  &__log {
+    display: flex;
+    align-items: center;
+
+    gap: 32px;
+    .access {
+      text-decoration: underline;
+      color: $blue;
+    }
+    a {
+      text-decoration: none;
+    }
+  }
+}

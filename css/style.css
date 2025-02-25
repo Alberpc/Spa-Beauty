@@ -1,0 +1,248 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+.button {
+  display: inline-block;
+  padding: 16px 40px;
+  color: white;
+  background-color: #264065;
+  border-radius: 32px;
+}
+.button:hover {
+  background-color: white;
+  color: #264065;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  grid-template-rows: 80vh 20vh;
+  grid-template-areas: "caja1 caja2" "caja3 caja3";
+}
+.container .container1 {
+  background-color: #faf8f5;
+  grid-area: caja1;
+}
+.container .container2 {
+  background-color: #a9d6cb;
+  grid-area: caja2;
+}
+.container .container3 {
+  background-color: white;
+  grid-area: caja3;
+}
+
+.hero {
+  max-width: 60%;
+  margin-bottom: 60px;
+}
+.hero__content-title {
+  color: #264065;
+  font-size: 64px;
+  margin-bottom: 32px;
+  font-weight: 700;
+}
+.hero__content-sub {
+  color: #909090;
+  font-size: 24px;
+  line-height: 40px;
+  margin-bottom: 50px;
+}
+.hero__nav {
+  display: flex;
+  justify-content: start;
+}
+.hero__nav ul {
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+.hero__nav li {
+  display: flex;
+  align-items: center;
+}
+.hero__nav .icon {
+  background-color: white;
+  border-radius: 50%;
+  padding: 10px;
+}
+.hero__nav a:first-child {
+  margin-right: 32px;
+}
+.hero__nav-menu {
+  display: flex;
+  align-items: center;
+}
+.hero__nav-menu a {
+  color: #264065;
+}
+.hero__nav a {
+  text-decoration: none;
+}
+
+.header1 {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  color: #264065;
+  margin-bottom: 80px;
+  gap: 164px;
+}
+.header1__nav_principal ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 56px;
+}
+.header1__nav_principal ul a {
+  text-decoration: none;
+  color: #264065;
+}
+.header1__nav_principal ul a:hover {
+  color: #a9d6cb;
+}
+
+.header2 {
+  display: flex;
+  padding-top: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.header2__icon {
+  display: flex;
+  max-width: 96px;
+  gap: 32px;
+  margin-right: 66px;
+}
+.header2__log {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+.header2__log .access {
+  text-decoration: underline;
+  color: #264065;
+}
+.header2__log a {
+  text-decoration: none;
+}
+
+.cta {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  max-width: 643px;
+  gap: 72px;
+  background-color: white;
+  border-radius: 16px;
+  position: absolute;
+  bottom: -125px;
+  left: 160px;
+}
+.cta .activities {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin: 32px;
+}
+.cta .activities__icon {
+  width: 72px;
+  align-self: center;
+}
+.cta .activities__span {
+  font-size: 30px;
+  font-weight: 600;
+  color: #264065;
+  margin-bottom: 10px;
+  margin-top: 16px;
+  text-align: center;
+}
+.cta .activities__description {
+  font-size: 18px;
+  color: #909090;
+  text-align: center;
+}
+
+html * {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+}
+
+body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.box1 {
+  padding-left: 160px;
+  padding-bottom: 218px;
+}
+
+.box3 {
+  position: relative;
+}
+
+.box2 {
+  position: relative;
+}
+
+.spa {
+  position: absolute;
+  right: 190px;
+}
+
+.background-image {
+  left: 230px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  background-image: url("../img/121-Photoroom.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.comentaries {
+  position: relative;
+}
+.comentaries div {
+  width: 350px;
+  padding: 15px;
+  font-size: 15px;
+  background-color: rgba(255, 255, 255, 0.7);
+  -webkit-backdrop-filter: blur(4px);
+          backdrop-filter: blur(4px);
+  border-radius: 16px;
+}
+.comentaries div img {
+  width: 25px;
+}
+.comentaries div p {
+  color: #070d15;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  font-weight: 300;
+}
+.comentaries div .name {
+  color: #264065;
+  font-weight: 600;
+}
+.comentaries__sophia {
+  position: absolute;
+  right: 60px;
+  top: 360px;
+}
+.comentaries__tamara {
+  position: absolute;
+  right: 180px;
+  top: 580px;
+  z-index: 1;
+}/*# sourceMappingURL=style.css.map */

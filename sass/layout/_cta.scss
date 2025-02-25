@@ -1,0 +1,39 @@
+.cta {
+  display: flex;
+  align-content: center;
+
+  justify-content: space-between;
+  max-width: 643px;
+  gap: 72px;
+
+  background-color: white;
+  border-radius: 16px;
+
+  position: absolute;
+  bottom: -125px;
+  left: 160px;
+
+  .activities {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: 32px;
+    &__icon {
+      width: 72px;
+      align-self: center;
+    }
+    &__span {
+      font-size: 30px;
+      font-weight: 600;
+      color: $blue;
+      margin-bottom: 10px;
+      margin-top: 16px;
+      text-align: center;
+    }
+    &__description {
+      font-size: $base;
+      color: $grey;
+      text-align: center;
+    }
+  }
+}
