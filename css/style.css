@@ -191,6 +191,10 @@ li {
   position: relative;
 }
 
+.container {
+  max-width: 1920px;
+}
+
 .spa {
   position: absolute;
   right: 190px;
@@ -239,6 +243,7 @@ li {
   position: absolute;
   right: 60px;
   top: 360px;
+  z-index: 1;
 }
 .comentaries__tamara {
   position: absolute;
